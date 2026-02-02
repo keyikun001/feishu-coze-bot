@@ -13,13 +13,13 @@ app = Flask(__name__)
 
 # ========== 配置信息（需要你填写）==========
 # 飞书配置
-FEISHU_APP_ID = "cli_a90af75703791cd9"  # 替换成你的
-FEISHU_APP_SECRET = "KshAbqeEAkIy0QgYrpc0Kgv54ojkzkKE"  # 替换成你的
+FEISHU_APP_ID = "替换成你的"  # 替换成你的
+FEISHU_APP_SECRET = "替换成你的"  # 替换成你的
 FEISHU_VERIFICATION_TOKEN = ""  # 稍后会自动生成
 
 # 扣子配置
 COZE_API_URL = "https://3zqbsbrbyz.coze.site/stream_run"
-COZE_API_TOKEN = "pat_PCws1DeeoWICjkMhB2wwXPCOduJhIBXyQWmNn7qzrNxqtRrC5kgpB0aCyrjyzmfh"  # 替换成你的
+COZE_API_TOKEN = "替换成你的"  # 替换成你的
 
 # ========== 功能函数 ==========
 
