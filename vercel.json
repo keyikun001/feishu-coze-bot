@@ -1,23 +1,30 @@
-from main import app
-
-# Vercel入口
-def handler(request):
-    return app(request)
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "main.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "main.py"
+    }
+  ]
+}
 ```
 
-4. **点击 `Commit new file`**
+5. **点击 `Commit changes`**
 
 ---
 
-### 步骤3：等待重新部署
+### 步骤2：添加 Vercel 入口文件
 
-- 保存后Vercel会自动重新部署
-- 等待1-2分钟
+我们还需要创建一个新文件 `api/index.py`：
 
----
+1. **在GitHub仓库主页，点击 `Add file` → `Create new file`**
 
-### 步骤4：重新测试
-
-部署完成后，在浏览器访问：
+2. **文件名输入**：
 ```
-https://feishu-coze-bot.vercel.app/health
+   api/index.py
