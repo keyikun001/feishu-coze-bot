@@ -28,26 +28,3 @@
 2. **文件名输入**：
 ```
    api/index.py
-from main import app
-
-# Vercel入口
-def handler(request):
-    return app(request)
-```
-
-4. **点击 `Commit new file`**
-
----
-
-### 步骤3：等待重新部署
-
-- 保存后Vercel会自动重新部署
-- 等待1-2分钟
-
----
-
-### 步骤4：重新测试
-
-部署完成后，在浏览器访问：
-```
-https://feishu-coze-bot.vercel.app/health
