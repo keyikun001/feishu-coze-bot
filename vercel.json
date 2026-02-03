@@ -13,18 +13,5 @@
     }
   ]
 }
-```
 
-5. **点击 `Commit changes`**
-
----
-
-### 步骤2：添加 Vercel 入口文件
-
-我们还需要创建一个新文件 `api/index.py`：
-
-1. **在GitHub仓库主页，点击 `Add file` → `Create new file`**
-
-2. **文件名输入**：
-```
    api/index.py
